@@ -5,23 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./images/favicon.png" />
-    <title>Crud App -> Sign Up</title>
+    <title>Crud App -> Login</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Lobster&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Ultra&family=Varela+Round&display=swap");
     </style>
   </head>
   <body>
-    <h1>Sign up</h1>
+    <h1>Login</h1>
     <section>
-      <div class="name">
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/149/149071.png"
-          alt="icon"
-          width="50px"
-          height="50px"
-        />
-        <input type="text" placeholder="Please Enter your Name" id="name" />
-      </div>
       <div class="email">
         <img
           src="https://cdn-icons-png.flaticon.com/128/13894/13894150.png"
@@ -29,7 +20,7 @@
           width="50px"
           height="50px"
         />
-        <input type="Email" placeholder="Please Enter your Email" id="email" />
+        <input type="Email" placeholder="Please Enter your Email" id="email"/>
       </div>
       <div class="password">
         <img
@@ -38,22 +29,17 @@
           width="50px"
           height="50px"
         />
-        <input
-          type="password"
-          placeholder="Please Enter your Password"
-          id="password"
-        />
+        <input type="password" placeholder="Please Enter your Password" id="password"/>
       </div>
       <div class="buttons">
-        <button id="Signup">Sign up</button>
-        <a href="login.html"
-          ><button id="Alreadyaccount">Already have Account</button></a
-        >
-      </div>
+        <button id="login">Login</button>
+        <a href="index.html"><button id="Alreadyaccount">Create Account</button
+            ></a></div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module" src="./javascript/config.js"></script>
-    <script type="module" src="./javascript/app.js"></script>
+    <script type="module" src="./javascript/login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   </body>
 </html>

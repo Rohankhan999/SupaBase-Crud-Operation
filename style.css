@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color:white;
+    color: white;
     font-size: 50px;
     margin-top: 60px;
     text-align: center;
@@ -18,45 +18,66 @@ h1 {
 }
 
 section {
+    padding:50px;
+    padding-bottom: 70px;
+    width:450px;
+    height:auto;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
     flex-direction: column;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    border: 1px solid rgba(255, 255, 255, 0.59);
+    margin: auto;
+    
 }
-input{
-    background-color:0000;
-    border:transparent;
+
+input {
+    background-color: 0000;
+    border: transparent;
     outline: transparent;
     border-radius: 30px;
-    width:320px;
-    height:50px;
+    width: 320px;
+    height: 50px;
     margin-top: 20px;
     padding: 1px;
     padding-left: 15px;
 }
-img{
+
+img {
     padding-top: 20px;
-    
+
 }
-.email,.password,.name,.buttons{
+
+.email,
+.password,
+.name,
+.buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: auto;
 }
-button{
+
+button {
     margin-top: 40px;
     border: transparent;
     outline: transparent;
-    background-color:rgb(39, 112, 223);
+    background-color: rgb(39, 112, 223);
     padding: 13px;
     border-radius: 20px;
     color: white;
     font-weight: 700;
-    width:170px;
+    width: 170px;
 }
-button:hover{
+
+button:hover {
     background-color: black;
     color: whitesmoke;
     transition: 2s;
