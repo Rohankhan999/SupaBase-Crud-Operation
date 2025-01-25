@@ -1,12 +1,9 @@
 body {
     width: 100%;
     height: 100%;
-    /* background: #141E30;
-    background: -webkit-linear-gradient(to left, #243B55, #141E30);
-    background: linear-gradient(to left, #243B55, #141E30); */
-    background: #43C6AC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     font-family: "Varela Round", serif;
     overflow-x: hidden;
 }
@@ -21,10 +18,10 @@ h1 {
 }
 
 section {
-    padding:50px;
+    padding: 50px;
     padding-bottom: 70px;
-    width:450px;
-    height:auto;
+    width: 450px;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -37,7 +34,7 @@ section {
     -webkit-backdrop-filter: blur(13.9px);
     border: 1px solid rgba(255, 255, 255, 0.59);
     margin: auto;
-    
+
 }
 
 input {

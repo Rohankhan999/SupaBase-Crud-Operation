@@ -8,14 +8,14 @@ button.addEventListener('click', async () => {
         // console.log(Userpost.value);
         const { error } = await supabaseConfig
             .from('data')
-            .insert({  post:Userpost.value , name: "user" });
-            
+            .insert({ post: Userpost.value, name: "user" });
+
         if (error) {
             console.log("error-->", error.message);
         } else {
             console.log("data add successfully!");
         }
-        Userpost.value = "";
+       
     }
     catch (err) {
         console.log(err);
