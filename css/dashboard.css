@@ -7,6 +7,7 @@ body {
     font-family: "Varela Round", serif;
     overflow-x: hidden;
 }
+
 h1 {
     color: white;
     font-size: 50px;
@@ -15,12 +16,14 @@ h1 {
     font-weight: 900;
     letter-spacing: 2px;
 }
-.post{
+
+.post {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 input {
     background-color: 0000;
     border: transparent;
@@ -31,8 +34,9 @@ input {
     margin-top: 0px;
     padding: 1px;
     padding-left: 15px;
-
+    text-transform: capitalize;
 }
+
 button {
     border: transparent;
     outline: transparent;
@@ -42,7 +46,7 @@ button {
     color: white;
     font-weight: 700;
     width: 170px;
-    height:40px;
+    height: 40px;
 }
 
 button:hover {
@@ -51,17 +55,19 @@ button:hover {
     transition: 2s;
     cursor: pointer;
 }
-h2{
+
+h2 {
     text-align: center;
     color: white;
     font-size: 36px;
     margin-top: 60px;
 }
-li{
+
+li {
     text-align: center;
     border: 1px solid black;
     /* border-radius: 20px; */
     margin-top: 20px;
-    color:white;
+    color: white;
     list-style: none;
 }

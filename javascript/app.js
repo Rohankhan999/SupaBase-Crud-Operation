@@ -45,9 +45,6 @@ btn.addEventListener("click", async () => {
             window.location.href = "login.html";
         });
 
-
-        localStorage.setItem("name", username);
-
     } catch (error) {
         console.error("Error occurred:", error);
         Swal.fire({
