@@ -8,6 +8,18 @@ body {
     overflow-x: hidden;
 }
 
+textarea::placeholder {
+    font-family: "Varela Round", serif;
+}
+
+textarea {
+    border-radius: 10px;
+    outline: transparent;
+    border: transparent;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
 h1 {
     color: white;
     font-size: 50px;
@@ -21,6 +33,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -28,7 +41,7 @@ input {
     background-color: 0000;
     border: transparent;
     outline: transparent;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 320px;
     height: 40px;
     margin-top: 0px;
@@ -63,11 +76,58 @@ h2 {
     margin-top: 60px;
 }
 
-li {
-    text-align: center;
-    border: 1px solid black;
-    /* border-radius: 20px; */
-    margin-top: 20px;
+#content {
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subpost {
+    border: rgb(67, 188, 158) 2px solid;
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+h3 {
     color: white;
-    list-style: none;
+    font-family: "teko", serif;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 34px;
+
+}
+
+p {
+    color: white;
+    font-family: "sour gummy", serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+#delete {
+    border: transparent;
+    outline: transparent;
+    background-color: rgb(211, 57, 57);
+    padding: 13px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    width: 170px;
+    height: 40px;
 }
