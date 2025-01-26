@@ -85,10 +85,10 @@ h2 {
 #content {
     margin-top: 40px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .subpost {
