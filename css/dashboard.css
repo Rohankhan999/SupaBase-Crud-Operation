@@ -8,16 +8,22 @@ body {
     overflow-x: hidden;
 }
 
-textarea::placeholder {
+textarea,
+input::placeholder {
     font-family: "Varela Round", serif;
+
+    font-size: 15px;
 }
 
 textarea {
-    border-radius: 10px;
+    border-radius: 5px;
     outline: transparent;
     border: transparent;
     padding-left: 15px;
     padding-top: 3px;
+    padding-top: 10px;
+    background-color: aliceblue;
+    text-transform: capitalize  ;
 }
 
 h1 {
@@ -38,10 +44,10 @@ h1 {
 }
 
 input {
-    background-color: 0000;
+    background-color: aliceblue;
     border: transparent;
     outline: transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 320px;
     height: 40px;
     margin-top: 0px;
@@ -82,14 +88,15 @@ h2 {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .subpost {
     border: rgb(67, 188, 158) 2px solid;
-    background: #141E30;
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    background: linear-gradient(to right, #243B55, #141E30);
-    width: 100%;
+    background: #606c88;
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+    background: linear-gradient(to right, #3f4c6b, #606c88);
+    width: 600px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -98,6 +105,8 @@ h2 {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    box-shadow: rgba(1, 250, 192, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 h3 {
@@ -107,6 +116,8 @@ h3 {
     text-align: center;
     text-transform: capitalize;
     font-size: 34px;
+    margin: 0px;
+    margin-top: 30px;
 
 }
 
@@ -115,8 +126,8 @@ p {
     font-family: "sour gummy", serif;
     letter-spacing: 3px;
     text-transform: capitalize;
-    padding: 10px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 18px;
 
 }
 
@@ -130,4 +141,21 @@ p {
     font-weight: 700;
     width: 170px;
     height: 40px;
+}
+
+#Update {
+    border: transparent;
+    outline: transparent;
+    background-color: rgb(30, 192, 79);
+    padding: 13px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    width: 170px;
+    height: 40px;
+}
+
+#buttonarea {
+    display: flex;
+    gap: 20px;
 }

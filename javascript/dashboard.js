@@ -42,7 +42,10 @@ const fetchData = (async () => {
                 main.innerHTML += `<div class="subpost">
                 <h3>${post.name}</h3>
                 <p>${post.description}</p>
+                <div id=buttonarea>
                 <button id="delete">Delete</button>
+                <button id="Update">Update</button>
+                </div>
                 </div>`;
             });
         }
