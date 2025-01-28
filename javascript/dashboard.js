@@ -18,6 +18,8 @@ button.addEventListener('click', async () => {
         } else {
             console.log("data add successfully!");
         }
+        Username.value="";
+        description.value="";
     }
     catch (error) {
         console.log("Error Aaya hai",error);
