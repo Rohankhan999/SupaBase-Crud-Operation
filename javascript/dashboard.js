@@ -57,6 +57,8 @@ const fetchData = (async () => {
 });
 fetchData();
 
+// Delete Method
+
 
 
 
