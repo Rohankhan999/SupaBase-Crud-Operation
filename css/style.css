@@ -1,9 +1,9 @@
 body {
     width: 100%;
     height: 100%;
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     font-family: "Varela Round", serif;
     overflow-x: hidden;
 }
@@ -83,13 +83,15 @@ button:hover {
     transition: 2s;
     cursor: pointer;
 }
+
 @media screen and (max-width: 600px) {
-    body{
-        width:100%;
-        height:100%;
-        overflow-x: hidden;        
+    body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
     }
-    section{
+
+    section {
         width: 100%;
         height: auto;
         padding: 0px;
@@ -97,16 +99,19 @@ button:hover {
         padding-bottom: 20px;
         padding-top: 20px;
     }
-    img{
-        width:50px;
-        height:50px;
+
+    img {
+        width: 50px;
+        height: 50px;
     }
-    h1{
+
+    h1 {
         font-size: 36px;
         text-align: center;
 
     }
-    input{
+
+    input {
         width: 250px;
     }
 }
