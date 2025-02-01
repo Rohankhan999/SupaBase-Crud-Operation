@@ -25,7 +25,7 @@ button.addEventListener('click', async () => {
         description.value = "";
     }
     catch (error) {
-        console.log("Error Aaya hai", error);
+        console.log("Error Aaya hai-->", error);
 
     }
 });
