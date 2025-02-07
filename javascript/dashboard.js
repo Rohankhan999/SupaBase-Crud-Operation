@@ -5,10 +5,10 @@ const Username = document.getElementById('name');
 const description = document.getElementsByTagName('textarea')[0];
 const button = document.getElementById('btn');
 const main = document.getElementById('content');
+
+
 // insert method
 
-  
-  
 button.addEventListener('click', async () => {
     try {
         // console.log(Userpost.value);
@@ -18,7 +18,8 @@ button.addEventListener('click', async () => {
 
         if (error) {
             console.log("error-->", error.message);
-        } else {
+        } 
+        else {
             console.log("data add successfully!");
         }
         Username.value = "";
