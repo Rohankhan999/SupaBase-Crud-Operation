@@ -60,6 +60,15 @@ const DeleteData = (async (postId) => {
 const UpdateData = (async (postId) => {
     let newTitle = prompt("add new title");
     let newDescription = prompt("add new Description");
+    if(!newTitle || !newDescription){
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Please fill all Fields",
+            
+          });
+          return;
+    }
   
     try {
         const { error } = await supabaseConfig
@@ -75,6 +84,7 @@ const UpdateData = (async (postId) => {
             console.log(data);
             fetchData();
         }
+        
     }
     catch (error) {
         console.log(error);
